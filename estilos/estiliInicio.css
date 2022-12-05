@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Cambiar body */
+body{
+    background-color: gray;
+}
+
+header {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    /* separador */
+    margin-top: 5px;
+
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    display:inline-block;
+}
+header nav ul li{
+    display:inline-block ;
+    margin: 10px;
+}
+header nav ul li a{
+    color: #fff;
+    text-decoration: none
+}
+header nav ul li a:hover{
+    margin: 10px;
+    transition: 1s;
+    border-bottom: 2px solid #fff}
